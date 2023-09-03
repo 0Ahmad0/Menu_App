@@ -1,13 +1,106 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.color-body{
+  height: 100vh;
+  background-color: #f8f8f8;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.font {
+  font-family: "Almarai", sans-serif;
+}
+
+.btn-color{
+  margin-left: .5rem;
+  background-color: #FFF;
+  border: 2px solid #ff8000 ;
+  color: #000;
+  
+}
+
+.btn-color:hover{
+  background-color: #ff8000;
+  border: 2px solid #ff8000 ;
+  color: #FFF;
+}
+
+
+
+.form-control:focus {
+  border-color: #ff8000;
+  box-shadow: 0 0 0 0.2rem rgba(255, 128, 0,0.25);
+} 
+
+.brand-color{
+  color: #ff8000;
+}
+
+
+.header-title{
+  color: #45748d;
+  padding: 1rem 1rem .5rem 1rem;
+  font-size: x-large;
+  font-family: 'Almarai';
+  font-weight: bold;
+}
+
+.under-line{
+  height: .25rem;
+  width: 30%;
+  border-radius: 10px;
+  background-color: #ff8000;
+  border: 1px solid #ff8000;
+}
+
+.menu-item{
+  background-color: red;
+  height: 100px;
+  width: 20px;
+}
+
+.image-item{
+  height: 12rem;
+  border-radius: .25rem;
+}
+
+.title-menu-item{
+  font-weight: bold;
+  font-size: x-large;
+
+}
+.subtitle-menu-item{
+  font-size: medium;
+  color: #8d8d8d;
+}
+.price-menu-item{
+  text-align: center;
+  background-color: #ff8000;
+  padding: .5rem;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 2.5vmin;
+  border-radius: .2rem;
+}
+
+.scrollbar {
+  overflow-x: scroll;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 128, 0,0.5);
+}
+
+
+
+
+.not-found{
+  color:white;
+  background-color: rgb(255, 52, 52);
+  border-radius: 8px;
+  padding: 1rem;
 }
